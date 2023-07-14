@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    }
+
+
+.form3{
+    background-color: #080710;
+    color: #ffffff;
+    
+}
+.form3 h2{
+    color: #ffffff;
+}
+.frombox{
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    justify-items: center;
+    gap: 4rem;
+    
+
+}
+.form3 input{
+    height: 70px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 19px;
+    font-weight: 300;
+    border-radius: 2rem;
+    margin-left: 2rem;
+
+}
+.title {
+  color: yellow ;
+  font-size: 1.5rem;
+  justify-content: center;
+  justify-items: center;
+  text-decoration: none;
+  text-decoration: none;
+  border-bottom: 1px yellowgreen dotted;
+}
+.title:hover{
+  color: yellow;
+  font-size: 3rem;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 0ms;
+  border-bottom: 1px yellowgreen dotted;
+
+}
+
+.form3 *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+.buttoo{
+
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butt1{
+    color: #080710;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+
+    justify-content: space-between;
+}
+.butt2{
+    color: aquamarine;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #080710;
+
+    justify-content: space-between;
+}
+
+.card-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .card {
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255,255,255,0.07);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content {
+    margin-bottom: 16px;
+  }
+  
+  .card-content a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .card-content p {
+    margin: 0;
+  }
+  
+  .card-actions button {
+    margin-right: 8px;
+  }
+  
+  .card-actions button:last-child {
+    margin-right: 0;
+  }
+  .crea{
+    color: greenyellow;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .pagination-button.active {
+    font-weight: bold;
+    background-color: white;
+    color: black;
+  }
+ h2{
+    font-size: 3rem;
+    padding-bottom: 5rem;
+    margin-left: 2rem;
+
+  }
+  
+  
+  
